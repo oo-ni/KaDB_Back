@@ -1,4 +1,4 @@
-package com.example.memberservice;
+package com.example.memberservice.entity;
 
 import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.ColumnDefault;
