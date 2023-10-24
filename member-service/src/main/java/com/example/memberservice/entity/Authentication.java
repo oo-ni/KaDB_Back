@@ -10,7 +10,7 @@ public class Authentication extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "AuthenticationNo")
-    private long no;
+    private int no;
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")

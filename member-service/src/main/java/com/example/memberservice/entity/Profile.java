@@ -13,7 +13,7 @@ public class Profile extends BaseEntity {
     private int no;
 
     @OneToOne
-    @JoinColumn(name = "vhUserNo", referencedColumnName = "UserNo")
+    @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
     private User user;
 
     @Column(name = "UserName", nullable = false, length = 12)

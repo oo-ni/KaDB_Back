@@ -1,4 +1,4 @@
-package com.example.postservice;
+package com.example.postservice.entity;
 
 import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.ColumnDefault;
