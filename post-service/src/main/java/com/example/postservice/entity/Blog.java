@@ -21,5 +21,5 @@ public class Blog extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private User user;
+    private User user; // 포스트 서비스에도 유저를 만들어야 한다네요~
 }
