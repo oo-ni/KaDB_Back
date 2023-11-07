@@ -1,4 +1,4 @@
-package com.example.postservice.entity;
+package com.example.memberservice.model;
 
 import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.ColumnDefault;
@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 
 @MappedSuperclass
 public class BaseEntity {
+    @CreationTimestamp
     private LocalDateTime createdTime;
 
     @UpdateTimestamp

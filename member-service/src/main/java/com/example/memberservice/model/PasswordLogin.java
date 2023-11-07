@@ -1,10 +1,13 @@
-package com.example.memberservice.entity;
+package com.example.memberservice.model;
 
+import com.example.memberservice.model.SiteUser;
 import jakarta.persistence.*;
+import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.sql.Timestamp;
 
+@Data
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @DiscriminatorColumn(name = "DTYPE")
@@ -17,7 +20,7 @@ public class PasswordLogin extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private User user;
+    private SiteUser user;
 
     @Column(nullable = false, length = 128)
     private String Salt;

@@ -1,7 +1,7 @@
-package com.example.postservice.entity;
+package com.example.postservice.model;
 
 import jakarta.persistence.*;
-import com.example.memberservice.entity.*;
+import com.example.memberservice.model.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
