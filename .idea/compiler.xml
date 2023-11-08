@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
-        </processorPath>
-        <module name="member-service.main" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="17" />
+      <module name="eureka-server.main" target="17" />
+      <module name="eureka-server.test" target="17" />
+      <module name="KaDB-gateway" target="17" />
+      <module name="KaDB-gateway.main" target="17" />
+      <module name="KaDB-gateway.test" target="17" />
+      <module name="member-service" target="17" />
+      <module name="member-service.main" target="17" />
+      <module name="member-service.test" target="17" />
+      <module name="post-service" target="17" />
+      <module name="post-service.main" target="17" />
+      <module name="post-service.test" target="17" />
+      <module name="search-service" target="17" />
+      <module name="search-service.main" target="17" />
+      <module name="search-service.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

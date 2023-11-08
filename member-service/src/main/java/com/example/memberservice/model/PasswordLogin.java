@@ -1,6 +1,5 @@
 package com.example.memberservice.model;
 
-import com.example.memberservice.model.SiteUser;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
