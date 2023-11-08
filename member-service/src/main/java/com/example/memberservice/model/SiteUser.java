@@ -1,6 +1,5 @@
 package com.example.memberservice.model;
 
-import com.example.memberservice.model.BaseEntity;
 import jakarta.persistence.*;
 import lombok.Data;
 
