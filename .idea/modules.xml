@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KaDB-gateway.iml" filepath="$PROJECT_DIR$/.idea/modules/KaDB-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KaDB-gateway.main.iml" filepath="$PROJECT_DIR$/.idea/modules/KaDB-gateway.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/KaDB-gateway.test.iml" filepath="$PROJECT_DIR$/.idea/modules/KaDB-gateway.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/KaDB_Back.iml" filepath="$PROJECT_DIR$/.idea/KaDB_Back.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/member-service.iml" filepath="$PROJECT_DIR$/.idea/modules/member-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/member-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/member-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/member-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/member-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/post-service.iml" filepath="$PROJECT_DIR$/.idea/modules/post-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/post-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/post-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/post-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/post-service.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/search-service.test.iml" />
     </modules>
   </component>
 </project>
