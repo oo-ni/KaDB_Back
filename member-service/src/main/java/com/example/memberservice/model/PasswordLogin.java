@@ -19,7 +19,7 @@ public class PasswordLogin extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private SiteUser user;
+    private Member user;
 
     @Column(nullable = false, length = 128)
     private String Salt;

@@ -1,6 +1,6 @@
 package com.example.memberservice.service;
 
-import com.example.memberservice.model.SiteUser;
+import com.example.memberservice.model.Member;
 import com.example.memberservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -20,8 +20,8 @@ public class UserService {
     @Autowired
     private final PasswordEncoder passwordEncoder;
 
-    public SiteUser create(String userid, String email, String password, String phone, Date birthday) {
-        SiteUser user = new SiteUser();
+    public Member create(String userid, String email, String password, String phone, Date birthday) {
+        Member user = new Member();
         user.setId(userid);
         user.setEmail(email);
         user.setPassword(passwordEncoder.encode(password));

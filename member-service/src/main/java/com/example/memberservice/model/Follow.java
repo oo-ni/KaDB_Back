@@ -14,10 +14,10 @@ public class Follow extends BaseEntity {
 
     @ManyToOne
     @JoinColumn(name = "FollowingNo", referencedColumnName = "UserNo")
-    private User user;
+    private Member user;
 
     @ManyToOne
     @JoinColumn(name = "FollowerNo", referencedColumnName = "UserNo")
-    private User user2;
+    private Member user2;
 
 }

@@ -14,7 +14,7 @@ public class Profile extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private User user;
+    private Member user;
 
     @Column(name = "UserName", nullable = false, length = 12)
     private String name;

@@ -14,7 +14,7 @@ public class Authentication extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private User user;
+    private Member user;
 
     @Column(nullable = false, unique = true, length = 128)
     private String PhoneNumber;

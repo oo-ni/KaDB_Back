@@ -14,7 +14,7 @@ public class SocialLogin extends BaseEntity {
 
     @OneToOne
     @JoinColumn(name = "UserNo", referencedColumnName = "UserNo")
-    private User user;
+    private Member user;
 
     @Column(nullable = false, length = 64)
     private String ExternalId;
